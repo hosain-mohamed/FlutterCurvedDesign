@@ -3,6 +3,7 @@
 </p>
 A Nice looking Flutter Design.
 
+inspiration : (https://dribbble.com/shots/6687016-Foody-Food-by-Subscription)
 ## Getting Started
 
 This project is a starting point for a Flutter application.
