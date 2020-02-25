@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/ReusableSacffold.dart';
-
+import 'BottomIcon.dart';
 import 'FoodRow.dart';
 
 class StartPage extends StatefulWidget {
@@ -166,8 +166,8 @@ class _StartPageState extends State<StartPage> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: <Widget>[
-                        BottomIcon(Icons.search),
-                        BottomIcon(Icons.shopping_cart),
+                        BottomIcon(icon : Icons.search , screenWidth : screenWidth),
+                        BottomIcon(icon : Icons.shopping_cart , screenWidth : screenWidth ),
                         Container(
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(15),
@@ -197,20 +197,4 @@ class _StartPageState extends State<StartPage> {
   }
 }
 
-class BottomIcon extends StatelessWidget {
-  BottomIcon(this.icons);
-  final IconData icons;
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(15),
-        border: Border.all(width: 1, color: Colors.grey),
-      ),
-      child: IconButton(
-          padding: EdgeInsets.all(screenWidth * 0.01),
-          icon: Icon(icons, color: Colors.black),
-          onPressed: null),
-    );
-  }
-}
+
