@@ -74,7 +74,7 @@ class _StartPageState extends State<StartPage> {
                   width: screenWidth * 0.03,
                 ),
                 Text(
-                  "Food",
+                  "Meals",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 30,
