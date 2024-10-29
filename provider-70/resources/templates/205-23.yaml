@@ -1,0 +1,11 @@
+apiVersion: elbv2.aws.crossplane.io/v1alpha1
+kind: LoadBalancer
+metadata:
+    name: "23"
+spec:
+    forProvider:
+        name: test
+        projectId: "45"
+        region: eu-centeral-1
+    providerConfigRef:
+        name: aws-provider70-credentials-ref
