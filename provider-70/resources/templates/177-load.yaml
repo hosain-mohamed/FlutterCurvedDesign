@@ -5,6 +5,9 @@ metadata:
 spec:
     forProvider:
         name: "123"
+        projectId: "45"
         region: Mansoura
+        securityGroupRefs:
+            - name: sec2
     providerConfigRef:
         name: aws-provider70-credentials-ref
