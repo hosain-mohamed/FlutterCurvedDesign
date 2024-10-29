@@ -8,6 +8,6 @@ spec:
         projectId: "45"
         region: Mansoura
         securityGroupRefs:
-            - name: sec2
+            - name: sec4
     providerConfigRef:
         name: aws-provider70-credentials-ref
