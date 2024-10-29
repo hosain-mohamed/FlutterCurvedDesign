@@ -1,0 +1,10 @@
+apiVersion: elbv2.aws.crossplane.io/v1alpha1
+kind: LoadBalancer
+metadata:
+    name: load
+spec:
+    forProvider:
+        name: "123"
+        region: Mansoura
+    providerConfigRef:
+        name: aws-provider70-credentials-ref

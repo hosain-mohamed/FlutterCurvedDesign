@@ -1,0 +1,10 @@
+apiVersion: iam.aws.crossplane.io/v1beta1
+kind: AccessKey
+metadata:
+    name: "44"
+spec:
+    forProvider:
+        accessKeyStatus: Inactive
+        projectId: "45"
+    providerConfigRef:
+        name: aws-provider70-credentials-ref
