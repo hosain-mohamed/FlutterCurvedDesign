@@ -1,0 +1,12 @@
+apiVersion: ec2.aws.crossplane.io/v1beta1
+kind: SecurityGroup
+metadata:
+    name: sec2
+spec:
+    forProvider:
+        description: ewe3333
+        groupName: "3123"
+        projectId: "45"
+        region: "312323"
+    providerConfigRef:
+        name: aws-provider70-credentials-ref
