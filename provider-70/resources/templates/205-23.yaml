@@ -4,8 +4,9 @@ metadata:
     name: "23"
 spec:
     forProvider:
-        name: test
-        projectId: "45"
+        name: test2
         region: eu-centeral-1
+        securityGroupRefs:
+            - name: sec
     providerConfigRef:
         name: aws-provider70-credentials-ref
