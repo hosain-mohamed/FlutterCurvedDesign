@@ -5,7 +5,7 @@ metadata:
 spec:
     forProvider:
         name: test22
-        region: eu-centeral-2
+        region: eu-centeral-3
         securityGroupRefs:
             - name: sec0000
     providerConfigRef:
