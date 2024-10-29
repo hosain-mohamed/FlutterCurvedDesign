@@ -7,6 +7,6 @@ spec:
         name: test22
         region: eu-centeral-1
         securityGroupRefs:
-            - name: sec00
+            - name: sec0
     providerConfigRef:
         name: aws-provider70-credentials-ref
