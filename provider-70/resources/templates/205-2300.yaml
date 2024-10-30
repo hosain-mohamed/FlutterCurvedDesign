@@ -4,9 +4,10 @@ metadata:
     name: "2300"
 spec:
     forProvider:
-        name: test0
+        name: tes
         region: eu-centeral-3
         securityGroupRefs:
             - name: sec000009
+            - name: sec
     providerConfigRef:
         name: aws-provider70-credentials-ref
