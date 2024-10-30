@@ -4,7 +4,7 @@ metadata:
     name: "23"
 spec:
     forProvider:
-        name: tes54
+        name: test
         region: eu-centeral-3
     providerConfigRef:
         name: aws-provider70-credentials-ref
