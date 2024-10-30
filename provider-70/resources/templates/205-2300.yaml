@@ -4,7 +4,7 @@ metadata:
     name: "2300"
 spec:
     forProvider:
-        name: tes
+        name: tes5
         region: eu-centeral-3
         securityGroupRefs:
             - name: sec000009
