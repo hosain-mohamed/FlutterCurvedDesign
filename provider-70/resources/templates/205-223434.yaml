@@ -1,7 +1,7 @@
 apiVersion: elbv2.aws.crossplane.io/v1alpha1
 kind: LoadBalancer
 metadata:
-    name: "200"
+    name: "223434"
 spec:
     forProvider:
         name: test200
