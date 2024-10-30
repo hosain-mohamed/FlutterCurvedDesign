@@ -1,0 +1,9 @@
+apiVersion: iam.aws.crossplane.io/v1beta1
+kind: Role
+metadata:
+    name: iam
+spec:
+    forProvider:
+        assumeRolePolicyDocument: name
+    providerConfigRef:
+        name: aws-provider70-credentials-ref
