@@ -1,12 +1,13 @@
 apiVersion: elbv2.aws.crossplane.io/v1alpha1
 kind: LoadBalancer
 metadata:
-    name: "6688"
+    name: "667"
 spec:
     forProvider:
         name: test2006
         region: eu-centeral-3
         securityGroupRefs:
             - name: sec23
+            - name: sec
     providerConfigRef:
         name: aws-provider70-credentials-ref
