@@ -8,7 +8,5 @@ spec:
         region: eu-centeral-3
         securityGroupRefs:
             - name: sec000009
-            - name: sec
-            - name: sec
     providerConfigRef:
         name: aws-provider70-credentials-ref
