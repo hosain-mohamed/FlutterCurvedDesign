@@ -1,0 +1,12 @@
+apiVersion: s3.aws.crossplane.io/v1beta1
+kind: Bucket
+metadata:
+    name: "2"
+spec:
+    forProvider:
+        accelerateConfiguration:
+            status: Suspended
+        acl: public-read
+        locationConstraint: eu-centeral-1
+    providerConfigRef:
+        name: aws-provider70-credentials-ref
