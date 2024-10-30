@@ -4,7 +4,7 @@ metadata:
     name: "23"
 spec:
     forProvider:
-        name: test12232
+        name: test1
         region: eu-centeral-3
         securityGroupRefs:
             - name: sec000009
