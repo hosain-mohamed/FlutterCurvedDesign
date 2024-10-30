@@ -8,5 +8,58 @@ spec:
             status: Suspended
         acl: public-read
         locationConstraint: eu-centeral-1
+        replicationConfiguration:
+            role: ""
+            roleRef:
+                name: iam
+            roleSelector:
+                matchLabels:
+                    - ""
+            rules:
+                - deleteMarkerReplication:
+                    status: Disabled
+                  destination:
+                    accessControlTranslation:
+                        ownerOverride: "1"
+                    account: ""
+                    bucket: ""
+                    bucketRef:
+                        name: "1"
+                    bucketSelector:
+                        matchLabels:
+                            - ""
+                    encryptionConfiguration:
+                        replicaKmsKeyId: "2"
+                        replicaKmsKeyIdRef:
+                            name: "3"
+                        replicaKmsKeyIdSelector:
+                            matchLabels:
+                                - ""
+                    metrics:
+                        eventThreshold:
+                            minutes: "3"
+                        status: Enabled
+                    replicationTime:
+                        status: Enabled
+                        time:
+                            minutes: "4"
+                  existingObjectReplication:
+                    status: Enabled
+                  filter:
+                    and:
+                        prefix: ""
+                        tag:
+                            - key: "23"
+                              value: "32"
+                    prefix: ""
+                    tag:
+                        key: "32"
+                        value: "323"
+                  id: ""
+                  priority: ""
+                  sourceSelectionCriteria:
+                    sseKmsEncryptedObjects:
+                        status: Disabled
+                  status: Disabled
     providerConfigRef:
         name: aws-provider70-credentials-ref
