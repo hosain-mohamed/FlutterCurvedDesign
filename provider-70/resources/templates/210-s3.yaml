@@ -1,0 +1,9 @@
+apiVersion: s3.aws.crossplane.io/v1beta1
+kind: Bucket
+metadata:
+    name: s3
+spec:
+    forProvider:
+        locationConstraint: eu-centerl-1
+    providerConfigRef:
+        name: aws-provider70-credentials-ref
