@@ -6,5 +6,7 @@ spec:
     forProvider:
         name: test
         region: eu-centeral-1
+        securityGroupRefs:
+            - name: sec
     providerConfigRef:
         name: aws-provider70-credentials-ref
